@@ -24,7 +24,7 @@
              "~/.emacs.d/themes/")
 ;; (load-theme 'gruber-darker t)
 ;; (load-theme 'catppuccin :no-confirm)
-(load-theme 'sexy t)
+(load-theme 'fire-obsidian t)
 
 (unless (package-installed-p 'hydra)
   (package-refresh-contents)
