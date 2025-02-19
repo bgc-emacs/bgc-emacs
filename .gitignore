@@ -1,4 +1,8 @@
-.cache/
-eln-cache/
-elpa/
-org-clock-save.el
+/auto-save-list/
+/eln-cache/
+/elpa/
+/.cache/
+/workspace/
+/eclipse.jdt.ls/
+/recentef
+/org-clock-save.el
