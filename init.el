@@ -1,3 +1,7 @@
+;; init.el --- -*- lexical-binding: t -*-
+;;
+;;
+
 (require 'package)
 (setq package-archives '(("melpa" . "https://melpa.org/packages/")
                          ("org" . "https://orgmode.org/elpa/")
@@ -17,6 +21,8 @@
 (setq use-package-always-ensure t)
 (package-refresh-contents)
 
+(add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
+
 ;; themes
 (package-install 'doom-themes)
 
@@ -25,12 +31,6 @@
 ;; (load-theme 'gruber-darker t)
 ;; (load-theme 'catppuccin :no-confirm)
 (load-theme 'fire-obsidian t)
-
-(unless (package-installed-p 'hydra)
-  (package-refresh-contents)
-  (package-install 'hydra))
-
-(global-set-key (kbd "C-c b") 'load-themes/body)
 
 ;; options
 (set-fringe-mode 15)

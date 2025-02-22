@@ -8,4 +8,5 @@
 /org-clock-save.el
 /eshell/
 .lsp-session-v1
-session.25dccbe80-552b-4705-86d1-a69d629e4a20
+.dap-breakpoints
+session.*
