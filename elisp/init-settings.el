@@ -23,6 +23,7 @@
 (setq frame-inhibit-implied-resize t)
 (setq site-run-file nil)
 (setq inhibit-compacting-font-caches t)
+(setq native-comp-async-report-warnings-errors nil)
 
 (setq auto-mode-alist (append '(("\\.scm$" . scheme-mode)) auto-mode-alist))
 (setq auto-mode-alist (append '(("\\.lisp$" . lisp-mode)) auto-mode-alist))

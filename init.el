@@ -7,14 +7,16 @@
 (require 'init-packages)
 (require 'init-settings)
 (require 'init-vertico)
-(require 'init-cl)
-(require 'init-xah-fly)
-(require 'init-org)
 (require 'init-themes)
-(require 'init-dashboard)
-(require 'init-treemacs)
+(require 'init-functions)
 (require 'init-web-mode)
 (require 'init-mmm-mode)
+(require 'init-haskell)
+(require 'init-xah-fly)
+(require 'init-cl)
+(require 'init-org)
+(require 'init-dashboard)
+(require 'init-treemacs)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
