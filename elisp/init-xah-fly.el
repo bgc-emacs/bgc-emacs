@@ -5,6 +5,7 @@
 (define-key xah-fly-insert-map (kbd "C-n") 'xah-new-empty-buffer)
 (define-key xah-fly-insert-map (kbd "C-k") 'kill-buffer)
 (define-key xah-fly-insert-map (kbd "C-e") 'my-eshell-split-window) 
+(define-key xah-fly-insert-map (kbd "C-t") 'treemacs)
 
 (define-key xah-fly-insert-map (kbd "C-w") 'delete-window) 
 (define-key xah-fly-command-map (kbd "S") 'save-buffer)
