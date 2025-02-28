@@ -12,6 +12,7 @@
 (require 'init-web-mode)
 (require 'init-mmm-mode)
 (require 'init-haskell)
+(require 'init-java)
 (require 'init-xah-fly)
 (require 'init-cl)
 (require 'init-org)
