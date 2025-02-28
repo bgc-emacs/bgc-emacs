@@ -1,12 +1,8 @@
-/auto-save-list/
-/eln-cache/
 /elpa/
-/.cache/
-/workspace/
 /eclipse.jdt.ls/
-/recentef
-/org-clock-save.el
+/eln-cache/
 /eshell/
-.lsp-session-v1
-.dap-breakpoints
-session.*
+/workspace/
+/auto-save-list/
+session.24199fceb-8a43-4fd7-a1c5-a7f5d45b62e4
+session.25dccbe80-552b-4705-86d1-a69d629e4a20
