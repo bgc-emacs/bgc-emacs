@@ -10,6 +10,7 @@
 (require 'init-xah-fly)
 (require 'init-org)
 (require 'init-themes)
+(require 'init-dashboard)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
