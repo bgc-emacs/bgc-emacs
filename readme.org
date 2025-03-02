@@ -1,6 +1,12 @@
-* My personal emacs config
+* Our emacs config
 
 I've been using this wonderful editor every day since May 2024, so I couldn't help but make a repository exclusively for it.
+
+* Table of contents
+
+- [[#Language-support][Language Support]]
+- [[#Installation][Installation]]
+- [[#Keymaps][Keymaps]]
 
 ** Language support
 
@@ -14,7 +20,9 @@ I've been using this wonderful editor every day since May 2024, so I couldn't he
 To install it, it's very simple, just clone this repository in your home folder, like this example:
 
 #+BEGIN_SRC shell
-git clone https://github.com/bgcicca/.emacs.d ~/.emacs.d
+git clone https://github.com/bgc-emacs/bgc-emacs ~/.emacs.d
 #+END_SRC
+
+* Keymaps
 
 
