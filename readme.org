@@ -3,8 +3,6 @@
 #+HTML: <div align="center">
 
 [[https://github.com/bgcicca][https://img.shields.io/badge/Emacs-30.1+-7F5AB6.svg?logo=gnu%20emacs&logoColor=white]]
-[[https://www.apple.com/macos/][https://img.shields.io/badge/-macOS-lightgrey?logo=apple&style=flat&logoColor=white]]
-[[https://www.kernel.org/][https://img.shields.io/badge/-Linux-fcc624?logo=linux&style=flat&logoColor=black]]
 
 #+HTML: </div>
 
