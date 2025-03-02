@@ -1,6 +1,6 @@
 * Our emacs config
 
-I've been using this wonderful editor every day since May 2024, so I couldn't help but make a repository exclusively for it.
+I've been using this wonderful editor every day since May 2024, so I couldn't help but make a org exclusively for it.
 
 * Table of contents
 
@@ -25,4 +25,7 @@ git clone https://github.com/bgc-emacs/bgc-emacs ~/.emacs.d
 
 * Keymaps
 
+For keymaps we use the xah-fly-keys qwerty-abnt layout, but it can be easily changed in /elisp/init-xah-fly.el
+
+[[https://github.com/xahlee/xah-fly-keys/raw/master/xah_fly_keys_qwerty_layout_2024-06-16.png]]
 
