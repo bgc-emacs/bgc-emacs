@@ -13,6 +13,7 @@ I've been using this wonderful editor every day since May 2024, so I couldn't he
 - [x] Haskell
 - [x] Lisp
 - [x] Java
+- [x] Html/Css
 - [ ] C/C++
 
 ** Installation
