@@ -5,7 +5,7 @@
 
 #+HTML: </div> 
 
-#+BEGIN_EXPORT html
+#+BEGIN_EXPORT markdown
 <p align="center">
   <a href="https://github.com/bgcicca">
     <img src="https://img.shields.io/badge/Emacs-30.1+-7F5AB6.svg?logo=gnu%20emacs&logoColor=white" />
