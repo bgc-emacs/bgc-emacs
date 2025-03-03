@@ -1,5 +1,6 @@
 /auto-save-list/
 /eln-cache/
+/quelpa/
 /elpa/
 /.cache/
 /workspace/
@@ -13,3 +14,4 @@ recentf
 session.*
 /transient/*
 main
+projectile-bookmarks.eld

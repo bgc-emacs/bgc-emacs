@@ -1,5 +1,6 @@
 (use-package vertico
   :ensure t
+  :commands vertico-mode
   :init
   (vertico-mode 1))
 

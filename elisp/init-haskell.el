@@ -1,4 +1,5 @@
 (use-package haskell-mode
+  :defer t
   :ensure t)
 
 (use-package eglot
