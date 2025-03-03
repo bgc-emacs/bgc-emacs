@@ -2,6 +2,10 @@
 
 I've been using this wonderful editor every day since May 2024, so I couldn't help but make a org exclusively for it.
 
+#+html: <a href="https://www.gnu.org/software/emacs/download.html"><img src="https://img.shields.io/badge/Emacs-30.1+-7F5AB6.svg?logo=gnu%20emacs&logoColor=white" alt="Emacs"></a>
+#+html: <a href="#"><img src="https://img.shields.io/badge/-macOS-lightgrey?logo=apple&style=flat&logoColor=white" alt="macOS"></a>
+#+html: <a href="#"><img src="https://img.shields.io/badge/-Linux-fcc624?logo=linux&style=flat&logoColor=black" alt="Linux"></a>
+
 * Table of contents
 
 - [[#Why-emacs][Why emacs?]]
