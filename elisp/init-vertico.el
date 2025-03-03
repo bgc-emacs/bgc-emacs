@@ -1,3 +1,7 @@
+;;; init-vertico.el --- complete engine -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package vertico
   :ensure t
   :commands vertico-mode

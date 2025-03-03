@@ -1,3 +1,7 @@
+;;; init-packages.el --- Packages control -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (require 'package)
 (setq package-archives
       '(("melpa" . "https://melpa.org/packages/")

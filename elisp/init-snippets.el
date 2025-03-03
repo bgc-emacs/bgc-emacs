@@ -1,3 +1,7 @@
+;;; init-snippets.el --- General snippets -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package yasnippet
   :ensure t
   :custom

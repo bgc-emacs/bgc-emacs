@@ -1,3 +1,7 @@
+;;; init-functions.el --- Ultils functions -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (defun my-eshell-split-window ()
   
   (interactive)

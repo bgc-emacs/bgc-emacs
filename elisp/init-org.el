@@ -1,3 +1,7 @@
+;;; init-org.el --- Org mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package org
   :mode  ("\\.org\\'" . org-mode)
   ("\\org.gpg\\'" . org-mode)

@@ -1,3 +1,7 @@
+;;; init-haskell.el --- Haskell mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package haskell-mode
   :defer t
   :ensure t)

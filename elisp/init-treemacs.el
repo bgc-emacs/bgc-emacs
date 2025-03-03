@@ -1,3 +1,7 @@
+;;; init-treemacs.el --- File tree explorer -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package treemacs
   :commands treemacs treemacs-find-file
   :custom (treemacs-width 40)

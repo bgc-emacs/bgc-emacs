@@ -1,3 +1,7 @@
+;;; init-xah-fly.el --- xah fly mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'xah-fly-keys)
 

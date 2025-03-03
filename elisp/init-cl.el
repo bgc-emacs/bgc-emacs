@@ -1,3 +1,7 @@
+;;; init-cl.el --- Common lisp mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (dolist (package '(slime paredit rainbow-delimiters))
   (unless (package-installed-p package)
     (package-install package)))

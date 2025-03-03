@@ -1,3 +1,7 @@
+;;; init-mmm-mode.el --- mmm mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package mmm-mode
   :config
   (mmm-add-group

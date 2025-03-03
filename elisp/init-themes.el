@@ -1,4 +1,6 @@
-(package-install 'doom-themes)
+;;; init-themes.el --- Themes customisations -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
 
 (add-to-list 'custom-theme-load-path
              "~/.emacs.d/themes/")

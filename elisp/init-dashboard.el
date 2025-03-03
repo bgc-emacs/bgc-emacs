@@ -1,3 +1,7 @@
+;;; init-dashboard.el --- Dashboard customisations -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package dashboard
   :ensure t
   :config

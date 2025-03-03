@@ -1,3 +1,7 @@
+;;; init-settings.el --- Dired general settings for editor -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (set-fringe-mode 15)
 (electric-indent-mode 1)
 (column-number-mode t)

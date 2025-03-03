@@ -1,3 +1,7 @@
+;;; init-web-mode.el --- Web mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package web-mode
   :commands (web-mode)
   :mode
