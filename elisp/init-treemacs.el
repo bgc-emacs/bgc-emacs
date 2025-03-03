@@ -9,8 +9,4 @@
 (use-package treemacs-magit
   :after treemacs magit)
 
-(use-package treemacs-all-the-icons
-  :after treemacs all-the-icons
-  :config (treemacs-load-theme "all-the-icons"))
-
 (provide 'init-treemacs)
