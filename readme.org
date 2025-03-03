@@ -4,11 +4,22 @@ I've been using this wonderful editor every day since May 2024, so I couldn't he
 
 * Table of contents
 
+- [[#Why-emacs][Why emacs?]]
 - [[#Language-support][Language Support]]
 - [[#Installation][Installation]]
 - [[#Keymaps][Keymaps]]
 
-** Language support
+* Why emacs?
+
+Emacs lets you do everything, much more than just edit text. Emacs is not a mere editor like the others, whether in terminal or GUI. Emacs is a development platform, with many more features than a common ide like sublime text or vscode. Emacs is a virtual machine that interprets its own bytecode. Do you realize how incredible this is? If a piece of software survives for more than 30 years, there's something good about it, right?
+
+Emacs can be an IRC client, an email client, a browser, a file manager and much more. You can write ALL types of programs for and in emacs to add more and new features using your own language "Emacs Lisp" popularly called elisp.
+
+Emacs is a programming platform that has an editor. Don't confuse Emacs with other real editors, which can only be used for editing.
+
+In practice, Emacs also offers many editing interfaces: Emacs, Ergoemacs and Evil, xah fly keys (as is the case with this distro) - or Vim within Emacs - built-in keyboard shortcuts. Emacs has built-in tools and interfaces to external tools for many programming languages. Learning Emacs means you can use the same editor for different languages. Otherwise you will have to learn a different editor when you learn a random language.
+
+* Language support
 
 - [x] Assembly
 - [x] Haskell
@@ -17,7 +28,7 @@ I've been using this wonderful editor every day since May 2024, so I couldn't he
 - [x] Html/Css
 - [ ] C/C++
 
-** Installation
+* Installation
 
 To install it, it's very simple, just clone this repository in your home folder, like this example:
 
