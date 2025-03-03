@@ -30,4 +30,11 @@
 (setq auto-mode-alist (append '(("\\.lisp$" . lisp-mode)) auto-mode-alist))
 (add-to-list 'auto-mode-alist '("\\.el\\'" . emacs-lisp-mode))
 
+;; Set frame transparency and maximize windows by default
+;; Uncomment the following lines if you want to add transparency to your editor
+;; (set-frame-parameter (selected-frame) 'alpha '(90 . 90))
+;; (add-to-list 'default-frame-alist '(alpha . (90 . 90)))
+;; (set-frame-parameter (selected-frame) 'fullscreen 'maximized)
+;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 (provide 'init-settings)
