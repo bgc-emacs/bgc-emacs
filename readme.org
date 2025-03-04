@@ -4,7 +4,7 @@
 #+html: <a href="https://www.gnu.org/software/emacs/download.html"><img src="https://img.shields.io/badge/Emacs-30.1+-7F5AB6.svg?logo=gnu%20emacs&logoColor=white" alt="Emacs"></a>
 #+html: <a href="#"><img src="https://img.shields.io/badge/-macOS-lightgrey?logo=apple&style=flat&logoColor=white" alt="macOS"></a>
 #+html: <a href="#"><img src="https://img.shields.io/badge/-Linux-fcc624?logo=linux&style=flat&logoColor=black" alt="Linux"></a>
-
+#+html: <a href="#"><img src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" alt="windows"></a>
 
 * Table of contents
 
