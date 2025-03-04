@@ -16,8 +16,6 @@
   (setq org-indent-mode nil)
   (setq org-export-with-sub-superscripts nil))
 
-(use-package ob-go)
-
 (org-babel-do-load-languages
      'org-babel-load-languages
      '((python . t)
