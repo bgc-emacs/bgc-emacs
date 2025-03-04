@@ -9,7 +9,8 @@
 (when (version< emacs-version "28.1")
   (message "Your Emacs is old, and some functionality in this config will be disabled. Please upgrade if possible."))
 
-(setq user-emacs-directory (file-name-directory load-file-name))
+(setq user-emacs-directory
+      (or user-emacs-directory (file-name-directory load-file-name)))
 (add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
 
 (require 'init-packages)
