@@ -7,7 +7,6 @@
   ("\\org.gpg\\'" . org-mode)
   :config
   
-  (setq org-confirm-babel-evaluate nil)
   (setq org-hide-block-startup t)
 
   (setq epa-file-cache-passphrase-for-symmetric-encryption t)
