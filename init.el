@@ -3,9 +3,11 @@
 ;; @bgcicca <https://www.bgcicca.com.br>
 
 
-(when (or load-file-name buffer-file-name)
-  (setq user-emacs-directory (file-name-directory (or load-file-name buffer-file-name))))
-(add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
+(let ((config-dir (or (file-name-directory load-file-name)
+                      (file-name-directory buffer-file-name)
+                      default-directory)))
+  (setq user-emacs-directory config-dir)
+  (add-to-list 'load-path (expand-file-name "elisp" config-dir)))
 
 (require 'init-symbols)
 (require 'init-packages)
