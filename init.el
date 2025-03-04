@@ -2,6 +2,9 @@
 ;;
 ;; @bgcicca <https://www.bgcicca.com.br>
 
+(when load-file-name
+  (setq user-emacs-directory (file-name-directory load-file-name)))
+
 (add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
 
 (require 'init-packages)
