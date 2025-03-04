@@ -3,11 +3,17 @@
 ;; @bgcicca <https://www.bgcicca.com.br>
 
 
+(let ((minver "27.1"))
+  (when (version< emacs-version minver)
+    (error "Your Emacs is too old -- this config requires v%s or higher" minver)))
+(when (version< emacs-version "28.1")
+  (message "Your Emacs is old, and some functionality in this config will be disabled. Please upgrade if possible."))
+
 (setq user-emacs-directory (file-name-directory (or user-init-file load-file-name)))
 (add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
 
-(require 'init-symbols)
 (require 'init-packages)
+(require 'init-symbols)
 (require 'init-settings)
 (require 'init-vertico)
 (require 'init-themes)
