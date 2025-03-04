@@ -16,15 +16,6 @@
   (setq org-indent-mode nil)
   (setq org-export-with-sub-superscripts nil))
 
-(org-babel-do-load-languages
-     'org-babel-load-languages
-     '((python . t)
-       (go . t)
-       (shell . t)))
-
-(use-package ob-async 
-    :after ob)
-
 (setq org-agenda-files '("~/notes/agenda.org"))
 ;;Show next 10 days, not only this week
 (setq org-agenda-span 10)
