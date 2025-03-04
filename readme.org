@@ -57,25 +57,6 @@ git clone https://github.com/bgc-emacs/bgc-emacs ~/.emacs.d
 
 * Keymaps
 
-These are the layouts that xah fly keys supports by default:
-
-- qwerty
-[[https://github.com/xahlee/xah-fly-keys/raw/master/xah_fly_keys_qwerty_layout_2024-06-16.png]]
-
-- dvorak
-[[file:dvorak.png]]
-
-- colemak
-[[file:colemak.png]]
-
-- colemak dh
-[[file:colemak-dh.png]]
-
-- workman
-[[file:workman.png]]
-
-But make no mistake, we also created some custom keybinds to improve our workflow.
-
 
 | keybind | description                                                |
 |---------+------------------------------------------------------------|
@@ -87,10 +68,9 @@ But make no mistake, we also created some custom keybinds to improve our workflo
 | C-d     | delete-window - Closes the current window.                 |
 | C-i e   | ielm - Opens the Interactive Emacs Lisp Mode (Ielm).       |
 | C-e e   | eval-buffer - Evaluates the entire buffer.                 |
-| S       | save-buffer - Saves the current buffer.                    |
-| K       | kill-buffer - Closes the current buffer.                   |
-| TD      | org-todo - Toggles the TODO state in Org mode.             |
-| D       | dired-create-directory - Creates a new directory in Dired. |
-| F       | dired-create-empty-file - Creates an empty file in Dired.  |
-| .       | isearch-forward - Starts an incremental search forward.    |
+| C-c D      | org-todo - Toggles the TODO state in Org mode.             |
+| C-D       | dired-create-directory - Creates a new directory in Dired. |
+| C-F       | dired-create-empty-file - Creates an empty file in Dired.  |
+| C-.       | isearch-forward - Starts an incremental search forward.    |
+| esc       | keyboard-escape-quit - quit minibuffer, etc.                  |
 |---------+------------------------------------------------------------|

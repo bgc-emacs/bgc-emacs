@@ -1,4 +1,4 @@
-;;; init-cl.el --- Common lisp mode -*- lexical-binding: t -*-
+;;; init-lisp.el --- Lisp configuration -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;; Code:
 
@@ -12,6 +12,11 @@
 (add-hook 'lisp-interaction-mode-hook 'enable-paredit-mode)
 (add-hook 'lisp-mode-hook 'enable-paredit-mode)
 (add-hook 'slime-repl-mode-hook 'enable-paredit-mode)
+(add-hook 'scheme-mode-hook 'enable-paredit-mode)
+
+(add-hook 'ielm-mode-hook
+          (lambda ()
+            (define-key ielm-mode-map (kbd "RET") 'ielm-return)))
 
 (require 'paredit)
 (defun override-slime-del-key ()
@@ -24,6 +29,7 @@
 (add-hook 'lisp-interaction-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'lisp-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'slime-repl-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'scheme-mode-hook 'rainbow-delimiters-mode)
 
 (require 'rainbow-delimiters)
 (set-face-foreground 'rainbow-delimiters-depth-1-face "#c66")  ; red
@@ -35,4 +41,4 @@
 (set-face-foreground 'rainbow-delimiters-depth-7-face "#ccc")  ; light gray
 (set-face-foreground 'rainbow-delimiters-depth-8-face "#999")  ; medium gray
 (set-face-foreground 'rainbow-delimiters-depth-9-face "#666")  ; dark gray
-(provide 'init-cl)
+(provide 'init-lisp)

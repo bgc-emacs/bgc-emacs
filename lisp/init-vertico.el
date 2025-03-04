@@ -5,9 +5,11 @@
 (use-package vertico
   :ensure t
   :commands vertico-mode
+  :custom 
+  (vertico-cycle t)
   :init
-  (vertico-mode 1))
-
+  (vertico-mode))
+  
 (use-package vertico-posframe
   :ensure t
   :after vertico

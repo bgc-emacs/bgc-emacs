@@ -6,5 +6,5 @@
 (add-to-list 'custom-theme-load-path (expand-file-name "themes" user-emacs-directory))
 ;; (load-theme 'gruber-darker t)
 ;; (load-theme 'catppuccin :no-confirm)
-(load-theme 'fire-obsidian t)
+(load-theme 'nekonight-storm t)
 (provide 'init-themes)
