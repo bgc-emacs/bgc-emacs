@@ -2,9 +2,8 @@
 ;;; Commentary:
 ;;; Code:
 
-(add-to-list 'load-path (expand-file-name "themes" user-emacs-directory))
-(add-to-list 'custom-theme-load-path
-             "~/.emacs.d/themes/")
+
+(add-to-list 'custom-theme-load-path (expand-file-name "themes" user-emacs-directory))
 ;; (load-theme 'gruber-darker t)
 ;; (load-theme 'catppuccin :no-confirm)
 (load-theme 'fire-obsidian t)
