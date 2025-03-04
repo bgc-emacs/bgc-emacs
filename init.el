@@ -2,17 +2,13 @@
 ;;
 ;; @bgcicca <https://www.bgcicca.com.br>
 
-(when noninteractive
-  (unless (fboundp 'set-fringe-mode)
-    (defun set-fringe-mode (&rest args)
-      "Stub for set-fringe-mode in batch mode."
-      nil)))
 
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
 
 (add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
 
+(require 'init-symbols)
 (require 'init-packages)
 (require 'init-settings)
 (require 'init-vertico)
