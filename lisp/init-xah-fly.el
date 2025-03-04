@@ -5,14 +5,19 @@
 (add-to-list 'load-path (expand-file-name "site-lisp/xah-fly-keys" user-emacs-directory))
 (require 'xah-fly-keys)
 
+;;; insert mode
 (define-key xah-fly-insert-map (kbd "C-s") 'save-buffer)
 (define-key xah-fly-insert-map (kbd "C-n") 'xah-new-empty-buffer)
 (define-key xah-fly-insert-map (kbd "C-k") 'kill-buffer)
-(define-key xah-fly-insert-map (kbd "C-e") 'my-eshell-split-window) 
+(define-key xah-fly-insert-map (kbd "C-e s") 'my-eshell-split-window) 
 (define-key xah-fly-insert-map (kbd "C-t") 'treemacs)
 (define-key xah-fly-insert-map (kbd "C-d") 'delete-window)
 
-(define-key xah-fly-insert-map (kbd "C-w") 'delete-window) 
+;;; elisp mode
+(define-key xah-fly-insert-map (kbd "C-i e") 'ielm)
+(define-key xah-fly-insert-map (kbd "C-e e") 'eval-buffer)
+
+;;; command mode
 (define-key xah-fly-command-map (kbd "S") 'save-buffer)
 (define-key xah-fly-command-map (kbd "K") 'kill-buffer)
 (define-key xah-fly-command-map (kbd "TD") 'org-todo)
