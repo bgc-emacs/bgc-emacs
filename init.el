@@ -3,6 +3,10 @@
 ;; @bgcicca <https://www.bgcicca.com.br>
 
 
+(when (or load-file-name buffer-file-name)
+  (setq user-emacs-directory (file-name-directory (or load-file-name buffer-file-name))))
+(add-to-list 'load-path (expand-file-name "elisp" user-emacs-directory))
+
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
 
