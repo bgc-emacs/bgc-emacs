@@ -2,7 +2,7 @@
 ;;; Commentary:
 ;;; Code:
 
-(add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'xah-fly-keys)
 
 (define-key xah-fly-insert-map (kbd "C-s") 'save-buffer)

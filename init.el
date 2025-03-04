@@ -2,6 +2,12 @@
 ;;
 ;; @bgcicca <https://www.bgcicca.com.br>
 
+(when noninteractive
+  (unless (fboundp 'set-fringe-mode)
+    (defun set-fringe-mode (&rest args)
+      "Stub for set-fringe-mode in batch mode."
+      nil)))
+
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
 
