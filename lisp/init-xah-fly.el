@@ -14,7 +14,7 @@
 (define-key xah-fly-insert-map (kbd "C-d") 'delete-window)
 
 ;;; elisp mode
-(define-key xah-fly-insert-map (kbd "C-i e") 'ielm)
+(define-key xah-fly-insert-map (kbd "C-i e") 'my-ielm-split-window)
 (define-key xah-fly-insert-map (kbd "C-e e") 'eval-buffer)
 
 ;;; command mode

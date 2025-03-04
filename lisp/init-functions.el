@@ -9,6 +9,12 @@
   (other-window 1)             
   (eshell))   
 
+(defun my-ielm-split-window ()
+  (interactive)
+  (split-window-below)
+  (other-window 1)
+  (ielm))
+
 (defun open-dired ()
   
   (interactive)
