@@ -57,7 +57,20 @@ git clone https://github.com/bgc-emacs/bgc-emacs ~/.emacs.d
 
 * Keymaps
 
-For keymaps we use the xah-fly-keys qwerty-abnt layout, but it can be easily changed in /elisp/init-xah-fly.el
+These are the layouts that xah fly keys supports by default:
 
+- qwerty
 [[https://github.com/xahlee/xah-fly-keys/raw/master/xah_fly_keys_qwerty_layout_2024-06-16.png]]
+
+- dvorak
+[[file:dvorak.png]]
+
+- colemak
+[[file:colemak.png]]
+
+- colemak dh
+[[file:colemak-dh.png]]
+
+- workman
+[[file:workman.png]]
 
