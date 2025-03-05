@@ -1,6 +1,7 @@
 (use-package projectile)
 (use-package flycheck)
 (use-package lsp-mode
+  :defer t
   :hook
   ((lsp-mode . lsp-enable-which-key-integration))
   :config

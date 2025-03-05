@@ -3,6 +3,7 @@
 ;;; Code:
 
 (use-package web-mode
+  :defer t
   :commands (web-mode)
   :mode
   ("\\.htm\\'" . web-mode)
@@ -17,6 +18,7 @@
   (web-mode-script-padding 2))
 
 (use-package rainbow-mode
+  :defer t
   :commands (rainbow-mode)
   :hook (css-mode . rainbow-mode))
 

@@ -73,4 +73,8 @@ git clone https://github.com/bgc-emacs/bgc-emacs ~/.emacs.d
 | C-F       | dired-create-empty-file - Creates an empty file in Dired.  |
 | C-.       | isearch-forward - Starts an incremental search forward.    |
 | esc       | keyboard-escape-quit - quit minibuffer, etc.                  |
+| C-c o     | bgc/open-emacs-config - open your emacs config           |
+| C-c r     | bgc/reload-settings - reload your config                 |
+| C-c p     | bgc/emacs-personal-files - open your config dir          |
+| C-c f     | bgc/open-dired - open dired file explorer                |
 |---------+------------------------------------------------------------|

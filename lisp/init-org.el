@@ -3,6 +3,7 @@
 ;;; Code:
 
 (use-package org
+  :defer t
   :mode  ("\\.org\\'" . org-mode)
   ("\\org.gpg\\'" . org-mode)
   :config

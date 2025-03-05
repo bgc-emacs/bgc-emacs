@@ -3,7 +3,6 @@
 ;;; Code:
 
 (defun my-eshell-split-window ()
-  
   (interactive)
   (split-window-below)         
   (other-window 1)             
@@ -15,8 +14,19 @@
   (other-window 1)
   (ielm))
 
-(defun open-dired ()
-  
+(defun bgc/reload-settings ()
+  (interactive)
+  (load-file (concat user-emacs-directory "init.el")))
+
+(defun bgc/open-emacs-config ()
+  (interactive)
+  (find-file (concat user-emacs-directory "init.el")))
+
+(defun bgc/emacs-personal-files ()
+  (interactive)
+  (counsel-find-file user-emacs-directory))
+
+(defun bgc/open-dired ()
   (interactive)
   (dired default-directory))
 

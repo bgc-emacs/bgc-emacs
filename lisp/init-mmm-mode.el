@@ -3,6 +3,7 @@
 ;;; Code:
 
 (use-package mmm-mode
+  :defer t
   :config
   (mmm-add-group
    'html-css

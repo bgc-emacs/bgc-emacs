@@ -7,6 +7,7 @@
   :ensure t)
 
 (use-package eglot
+  :defer t
   :ensure t
   :hook (haskell-mode . eglot-ensure)
   :config

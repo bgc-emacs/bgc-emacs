@@ -19,5 +19,9 @@
 (global-set-key (kbd "C-D") 'dired-create-directory)
 (global-set-key (kbd "C-F") 'dired-create-empty-file)
 (global-set-key (kbd "C-.") 'isearch-forward)
+(global-set-key (kbd "C-c o") 'bgc/open-emacs-config)
+(global-set-key (kbd "C-c r") 'bgc/reload-settings)
+(global-set-key (kbd "C-c p") 'bgc/emacs-personal-files)
+(global-set-key (kbd "C-c f") 'bgc/open-dired)
 
 (provide 'init-keymaps)

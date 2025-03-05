@@ -1,6 +1,12 @@
 ;; init.el --- -*- lexical-binding: t -*-
 ;;
 ;; @bgcicca <https://www.bgcicca.com.br>
+;;
+;; email: bgcicca@proton.me 
+;;
+;; matrix: @cicca:matrix.org
+;;
+;; telegram: @bgcicca 
 
 (let ((minver "27.1"))
   (when (version< emacs-version minver)

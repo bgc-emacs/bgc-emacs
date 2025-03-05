@@ -18,6 +18,16 @@
           (lambda ()
             (define-key ielm-mode-map (kbd "RET") 'ielm-return)))
 
+(with-eval-after-load 'comint
+  (unless (fboundp 'comint-clear-buffer)
+    (defun comint-clear-buffer ()
+      "Clear the comint buffer."
+      (interactive)
+      (let ((comint-buffer-maximum-size 0))
+        (comint-truncate-buffer)))
+
+    (define-key comint-mode-map "\C-c\M-o" #'comint-clear-buffer)))
+
 (require 'paredit)
 (defun override-slime-del-key ()
   (define-key slime-repl-mode-map
