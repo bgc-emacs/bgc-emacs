@@ -15,7 +15,11 @@
   (define-key emacs-lisp-mode-map (kbd "C-i e") 'my-ielm-split-window)
   (define-key emacs-lisp-mode-map (kbd "C-c e") 'eval-buffer))
 
+;; org-mode keybinds
 (global-set-key (kbd "C-c D") 'org-todo)
+(global-set-key (kbd "C-c a g") #'org-agenda)
+(global-set-key (kbd "C-c l") 'org-store-link)
+
 (global-set-key (kbd "C-D") 'dired-create-directory)
 (global-set-key (kbd "C-F") 'dired-create-empty-file)
 (global-set-key (kbd "C-.") 'isearch-forward)
@@ -23,5 +27,6 @@
 (global-set-key (kbd "C-c r") 'bgc/reload-settings)
 (global-set-key (kbd "C-c p") 'bgc/emacs-personal-files)
 (global-set-key (kbd "C-c f") 'bgc/open-dired)
+(global-set-key (kbd "C-c 2") 'bgc/duplicate-line)
 
 (provide 'init-keymaps)

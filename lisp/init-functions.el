@@ -14,6 +14,17 @@
   (other-window 1)
   (ielm))
 
+(defun bgc/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
+
+(defun bgc/duplicate-line ()
+  (interactive)
+  (let ((currline (thing-at-point 'line)))
+    (save-excursion
+      (beginning-of-line)
+      (insert currline))))
+
 (defun bgc/reload-settings ()
   (interactive)
   (load-file (concat user-emacs-directory "init.el")))

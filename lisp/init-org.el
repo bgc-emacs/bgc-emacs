@@ -12,11 +12,11 @@
 
   (setq epa-file-cache-passphrase-for-symmetric-encryption t)
 
-  ;; turn off 'org-indent-mode' by default
-  (setq org-indent-mode nil)
   (setq org-export-with-sub-superscripts nil))
 
-(setq org-agenda-files '("~/notes/agenda.org"))
+(setq org-agenda-files
+      '("~/notes/agenda.org"
+        "~/notes/estudos.org"))
 ;;Show next 10 days, not only this week
 (setq org-agenda-span 10)
 ;;show agenda since today 
