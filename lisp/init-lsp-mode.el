@@ -1,8 +1,12 @@
+;;; init-lsp-mode.el --- lsp mode -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
+
 (use-package lsp-mode
   :commands (lsp lsp-deferred)
   :hook (lsp-mode . bgc/lsp-mode-setup)
   :init
-  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  (setq lsp-keymap-prefix "C-c l")
   :config
   (lsp-enable-which-key-integration t))
 

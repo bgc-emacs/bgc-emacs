@@ -11,19 +11,24 @@
   (vertico-mode))
 
 (use-package company
-  :bind (:map company-active-map
-              ("<tab>" . company-complete-selection))
-  (:map lsp-mode-map
-        ("<tab>" . company-indent-or-complete-common))
   :custom
-  (company-minimum-prefix-length 1)
   (company-idle-delay 0.0)
-  :config
-  (global-company-mode 1))  
+  (company-minimum-prefix-length 1)
+  (company-require-match 'never)
+  :init
+  (global-company-mode 1))
 
 (use-package company-box
   :ensure t
-  :hook (company-mode . company-box-mode))
+  :after company
+  :config
+  (company-box-mode 1))
+
+(use-package company-shell
+  :ensure t
+  :after company
+  :config
+  (add-to-list 'company-backends 'company-shell))
 
 (use-package vertico-posframe
   :ensure t
@@ -38,5 +43,4 @@
      (poshandler . posframe-poshandler-frame-center)))
   :config
   (vertico-posframe-mode 1))
-
 (provide 'init-completions)
