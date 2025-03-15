@@ -45,7 +45,9 @@ The original Emacs, like TECO, ran only on the PDP-10 running ITS. Its behavior 
 - [x] Lisp
 - [x] Java
 - [x] Html/Css
-- [ ] C/C++
+- [x] C/C++
+- [x] Shell
+- [x] Clojure
 
 * Installation
 
