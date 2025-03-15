@@ -63,9 +63,8 @@ git clone https://github.com/bgc-emacs/bgc-emacs ~/.emacs.d
 | keybind | description                                                |
 |---------+------------------------------------------------------------|
 | C-s     | save-buffer - Saves the current buffer.                    |
-| C-n     | xah-new-empty-buffer - Creates a new empty buffer.         |
 | C-k     | kill-buffer - Closes the current buffer.                   |
-| C-e s   | my-eshell-split-window - Opens a split window for Eshell.  |
+| C-c s   | my-eshell-split-window - Opens a split window for Eshell.  |
 | C-t     | treemacs - Opens the Treemacs file explorer.               |
 | C-d     | delete-window - Closes the current window.                 |
 | C-i e   | ielm - Opens the Interactive Emacs Lisp Mode (Ielm).       |
